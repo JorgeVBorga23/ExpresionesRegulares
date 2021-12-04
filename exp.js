@@ -10,9 +10,9 @@ boton.addEventListener("click", () => {
     if (h === "" || s === "" || v === "") {
         alert("Debe llenar todos los campos")
     } else {
-        if (h > 359 || s > 100 || v > 100) {
+        if (h > 360 || s > 100 || v > 100) {
 
-            alert("Recuerde que H < 359, Saturacion < 100% y Brillo < 100%")
+            alert("Recuerde que H <= 360, Saturacion <= 100% y Brillo <= 100%")
 
         } else {
 
